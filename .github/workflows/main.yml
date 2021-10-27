@@ -13,7 +13,7 @@ jobs:
           path: packages/one
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          command: manifest
+          command: manifest-pr
       - uses: actions/checkout@v2
         if: ${{ steps.tag-release.outputs.releases_created }}
       - name: ONE
