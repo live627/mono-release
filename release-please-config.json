@@ -1,4 +1,7 @@
 {
+  "plugins": [
+    "node-workspace"
+  ],
   "packages": {
     "packages/one": {},
     "packages/two": {}
